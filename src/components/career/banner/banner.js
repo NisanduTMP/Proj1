@@ -17,7 +17,7 @@ export default function Banner({data}){
                 <p className="career-banner-p-sec">{data.description}</p>
             </div>
             <div className="career-banner-img-sec">
-                <img src="/img/career/row1/banner1.png" className="career-banner-img-sec-img"/>
+                <img src={data.img} className="career-banner-img-sec-img"/>
             </div>
         </div>
     )
