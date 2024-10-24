@@ -1,0 +1,66 @@
+.help-getintouch-btn{
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.9rem;
+    background: #243D53;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    margin-bottom: 0px;
+    cursor: pointer;
+    margin-top: 110px;
+}
+
+.help-getintouch-btn:hover{
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+
+.help-foot-card-main-inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.help-foot-card-txt-sec{
+    width: 35%;
+    margin-left: auto;
+    background-color: #2F6B9F;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top:1px solid #fff;
+    border-left:1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+
+.help-foot-card-img-sec{
+    width:45%;
+}
+
+.help-foot-card-img-sec-img{
+    width: 100%;
+}
+
+.help-foot-card-txt-sec-h{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.help-foot-card-txt-sec-p{
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 110%;
+    font-weight: 100;
+    width: 90%;
+}

@@ -3,6 +3,7 @@ import Banner from "../../components/career/banner/banner";
 import Card from "../../components/career/card/card";
 import Text1 from "../../components/career/text1/text1";
 import Text2 from "../../components/career/text2/text2";
+import Getintouch from "../../components/help_center/getintouch/getintouch";
 import styles from './Career.css'
 export default function Career(){
     const obj = {
@@ -32,12 +33,20 @@ export default function Career(){
             "Bachelor’s degree in Statistics, Mathematics, or a related field."
         ]
     }
+    const gob = {
+        title:"Get In Touch",
+        des:"Still have questions? Please email us at support@strug.ca or give us a call at +1(647)377-4393 and a service team member will happily assist you!",
+        img:"/img/career/row1/banner2.png",
+        bgcolor1:"#172741",
+        bgcolor2:"#2F6B9F"
+    }
     return (
         <div className="career-main">
             {/* <Banner data={obj}/> */}
             {/* <Card data={cardob}/> */}
             {/* <Text1 data={txtob}/> */}
-            <Text2 data={txt2ob}/>
+            {/* <Text2 data={txt2ob}/> */}
+            {<Getintouch data={gob}/>}
         </div>
     )
 }
