@@ -1,0 +1,27 @@
+.pcontainer-card-main{
+    margin-top: 40px;
+}
+
+.pcontainer-card-main-p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.pcontainer-card-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pcontainer-card-img-sec{
+    width:40%;
+}
+
+.pcontainer-card-img-sec-img{
+    display: block;
+    width: 80%;
+}
+
+.pcontainer-card-txt-sec{
+    width:60%;
+    font-size: 1.2rem;
+}

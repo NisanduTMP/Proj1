@@ -5,6 +5,7 @@ import Text1 from "../../components/career/text1/text1";
 import Text2 from "../../components/career/text2/text2";
 import Getintouch from "../../components/help_center/getintouch/getintouch";
 import Cardcontainer from "../../components/help_center/card/cardcontainer";
+import Pcontainer from "../../components/help_center/partnership/pcontainer";
 import styles from './Career.css'
 export default function Career(){
     const obj = {
@@ -63,9 +64,10 @@ export default function Career(){
             {/* <Banner data={obj}/> */}
             {/* <Card data={cardob}/> */}
             {/* <Text1 data={txtob}/> */}
-            <Text2 data={txt2ob}/>
+            {/* <Text2 data={txt2ob}/> */}
             {/* {<Getintouch data={gob}/>} */}
-            <Cardcontainer data={cardObj}/>
+            {/* <Cardcontainer data={cardObj}/> */}
+            <Pcontainer/>
         </div>
     )
 }

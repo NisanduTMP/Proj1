@@ -1,0 +1,22 @@
+.pcontainer-main{
+    width:85%;
+    background-color: #1A365C;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.inner-pcontainer-main{
+    padding: 30px;
+}
+
+.inner-pcontainer-main-p{
+    font-size: 1.2rem;
+}
+
+.pcontainer-p-addm{
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
