@@ -4,6 +4,7 @@ import Card from "../../components/career/card/card";
 import Text1 from "../../components/career/text1/text1";
 import Text2 from "../../components/career/text2/text2";
 import Getintouch from "../../components/help_center/getintouch/getintouch";
+import Cardcontainer from "../../components/help_center/card/cardcontainer";
 import styles from './Career.css'
 export default function Career(){
     const obj = {
@@ -40,13 +41,31 @@ export default function Career(){
         bgcolor1:"#172741",
         bgcolor2:"#2F6B9F"
     }
+    const cardObj = {
+        bgcolor:"#172741",
+        cards:[
+            {
+                link:"",
+                txt:"Our Impact",
+            },
+            {
+                link:"",
+                txt:"Our Impact",
+            },
+            {
+                link:"",
+                txt:"Our Service",
+            },
+        ]
+    }
     return (
         <div className="career-main">
             {/* <Banner data={obj}/> */}
             {/* <Card data={cardob}/> */}
             {/* <Text1 data={txtob}/> */}
-            {/* <Text2 data={txt2ob}/> */}
-            {<Getintouch data={gob}/>}
+            <Text2 data={txt2ob}/>
+            {/* {<Getintouch data={gob}/>} */}
+            <Cardcontainer data={cardObj}/>
         </div>
     )
 }
